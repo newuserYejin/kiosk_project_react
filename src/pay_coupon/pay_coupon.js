@@ -27,7 +27,7 @@ function App() {
             <div className={css.navigation}>
                 <div className={css.navigation_all_box}>
                     <div className={css.box_line}>
-                        <div onclick={openSelect()} className={css.level_button}>
+                        <div onClick={openSelect} className={css.level_button}>
                             <p className={css.circle_name}>선택</p>
                             <button className={css.circle}></button>
                         </div>
@@ -39,7 +39,7 @@ function App() {
                     </div>
 
                     <div className={css.box_line}>
-                        <div onclick={openCheck()} className={css.level_button}>
+                        <div onClick={openCheck} className={css.level_button}>
                             <p className={css.circle_name}>확인</p>
                             <button className={css.circle}></button>
 
@@ -52,7 +52,7 @@ function App() {
                     </div>
 
                     <div className={css.box_line}>
-                        <div onclick={openPay()} className={css.level_button}>
+                        <div onClick={openPay} className={css.level_button}>
                             <p className={css.circle_name}>결제</p>
                             <button className={css.circle} style={{ backgroundColor: '#b928b98d' }}></button>
                         </div>
@@ -76,7 +76,7 @@ function App() {
                             <img className={css.pay_coupon} src={couponGif} />
                         </div>
                         <div className={css.gohome_}>
-                            <button type="button" className={css.gohome} onclick={Back()}>주문으로 돌아가기</button>
+                            <button type="button" className={css.gohome} onClick={Back}>주문으로 돌아가기</button>
                         </div>
                     </div>
                 </div>

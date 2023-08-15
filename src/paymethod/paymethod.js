@@ -31,7 +31,7 @@ function App() {
             <div className={css.navigation}>
                 <div className={css.navigation_all_box}>
                     <div className={css.box_line}>
-                        <div onclick={openSelect()} className={css.level_button}>
+                        <div onClick={openSelect()} className={css.level_button}>
                             <p className={css.circle_name}>선택</p>
                             <button className={css.circle}></button>
                         </div>
@@ -43,7 +43,7 @@ function App() {
                     </div>
 
                     <div className={css.box_line}>
-                        <div onclick={openCheck()} className={css.level_button}>
+                        <div onClick={openCheck} className={css.level_button}>
                             <p className={css.circle_name}>확인</p>
                             <button className={css.circle}></button>
 
@@ -56,7 +56,7 @@ function App() {
                     </div>
 
                     <div className={css.box_line}>
-                        <div onclick={openPay()} className={css.level_button}>
+                        <div onClick={openPay} className={css.level_button}>
                             <p className={css.circle_name}>결제</p>
                             <button className={css.circle} style={{ backgroundColor: '#b928b98d' }}></button>
                         </div>
@@ -73,11 +73,11 @@ function App() {
                 <div className={css.first}>
                     <div className={css.fir_box}>
                         <div className={css.pay}>
-                            <button type="button" className={css.card_method} onclick={checkPayType()}>카드</button>
-                            <button type="button" className={css.coupon_method} onclick={checkPayType()}>쿠폰</button>
+                            <button type="button" className={css.card_method} onClick={checkPayType}>카드</button>
+                            <button type="button" className={css.coupon_method} onClick={checkPayType}>쿠폰</button>
                         </div>
                         <div className={css.go_home}>
-                            <button type="button" className={css.gohome} onclick={Back()}>주문으로 돌아가기</button>
+                            <button type="button" className={css.gohome} onClick={Back}>주문으로 돌아가기</button>
                         </div>
                     </div>
                 </div>

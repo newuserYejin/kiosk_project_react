@@ -1,6 +1,6 @@
-import sl from './selecteat.module.css';
-import Line from './image/line2.jpg'
-import Circle from './image/circle-question.svg'
+import sl from '../selectEat/selecteat.module.css';
+import Line from '../image/line2.jpg'
+import Circle from '../image/circle-question.svg'
 
 
 function App() {

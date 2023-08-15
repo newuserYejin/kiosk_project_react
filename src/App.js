@@ -9,7 +9,7 @@ import BicOrder from '../src/BicOrder/BicOrder';
 function App() {
   return (
     <>
-      <BicOrder />
+      <SelectEat/>
     </>
   );
 }

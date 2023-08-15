@@ -1,7 +1,7 @@
-import css from './paymethod.module.css';
-import Line from './image/line2.jpg'
-import helpImage from './image/circle-question.svg'
-
+import css from './pay_card.module.css';
+import cardGif from '../image/pay_card.gif'
+import Line from '../image/line2.jpg'
+import helpImage from '../image/circle-question.svg'
 
 function App() {
 
@@ -14,12 +14,9 @@ function App() {
     }
 
     function openPay() {
-
+ 
     }
 
-    function checkPayType() {
-
-    }
 
     function Back() {
 
@@ -72,12 +69,15 @@ function App() {
                 </div>
                 <div className={css.first}>
                     <div className={css.fir_box}>
-                        <div className={css.pay}>
-                            <button type="button" className={css.card_method} onclick={checkPayType()}>카드</button>
-                            <button type="button" className={css.coupon_method} onclick={checkPayType()}>쿠폰</button>
+                        <div className={css.explain}>	
+                            <div className={css.explain1}>카드를 아래의 영상과 같이</div>
+                            <div className={css.explain2}>투입구에 끝까지 넣어주세요.</div>
                         </div>
-                        <div className={css.go_home}>
-                            <button type="button" className={css.gohome} onclick={Back()}>주문으로 돌아가기</button>
+                        <div className={css.video}>
+                            <img className={css.pay_card} src={cardGif} />
+                        </div>
+                        <div className={css.gohome_}>
+                            <button type="button" className={css.gohome} onclick="Back()">주문으로 돌아가기</button>
                         </div>
                     </div>
                 </div>

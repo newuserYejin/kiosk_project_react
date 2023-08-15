@@ -1,6 +1,6 @@
 import css from './ordernum.module.css';
-import closeImage from './image/close.png'
-import helpImage from './image/circle-question.svg'
+import closeImage from '../image/close.png'
+import helpImage from '../image/circle-question.svg'
 
 
 function App() {

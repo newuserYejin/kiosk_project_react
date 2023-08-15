@@ -1,7 +1,7 @@
 import css from './pay_coupon.module.css';
-import couponGif from './image/pay_coupon.gif'
-import Line from './image/line2.jpg'
-import helpImage from './image/circle-question.svg'
+import couponGif from '../image/pay_coupon.gif'
+import Line from '../image/line2.jpg'
+import helpImage from '../image/circle-question.svg'
 
 function App() {
 

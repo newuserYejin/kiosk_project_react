@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import SelectOrder from './selectorder'
-import SelectEat from './selecteat'
+import SelectOrder from '../src/selectOrder/selectorder'
+import SelectEat from './selectEat/selecteat'
 import Routing from './Routing';
 import App from './App';
 

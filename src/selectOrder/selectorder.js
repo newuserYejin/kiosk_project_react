@@ -1,8 +1,8 @@
 import React from 'react';
-import sl from './selectorder.module.css';
-import korImage from '../src/image/kor.png';
-import usaImage from '../src/image/usa.png';
-import helpImage from '../src/image/circle-question.svg';
+import sl from '../selectOrder/selectorder.module.css';
+import korImage from '../image/kor.png';
+import usaImage from '../image/usa.png';
+import helpImage from '../image/circle-question.svg';
 import { useNavigate } from 'react-router-dom';
 
 

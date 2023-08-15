@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SelectEat from './selecteat'
+import SelectEat from './selectEat/selecteat'
 import App from './App'
 
 

@@ -17,7 +17,7 @@ body {
   border: solid 3px black;
   border-right: none;
   width: 20vw;
-  height: 99.2%;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 80vw;
-  height: 95.8%;
+  height: auto;
   padding: 2vw;
 }
 
@@ -91,13 +91,13 @@ body {
 .select_list {
   height: 25%;
   border-top: solid 3px black;
+  overflow: hidden;
 }
 
 .select_list_title {
   font-weight: bold;
   text-align: center;
   height: 15%;
-  font-size: 2.5vw;
 }
 
 .select_list_list {
@@ -137,9 +137,7 @@ body {
 
   @media screen and (max-height: 700px) {
     .select_list_title {
-      padding: 0 5%;
-      margin-bottom: 20%;
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .select_list_list {
@@ -367,7 +365,6 @@ body {
   }
 
   .navigation {
-    border: solid 3px black;
     border-right: none;
     width: 25%;
     height: 100%;

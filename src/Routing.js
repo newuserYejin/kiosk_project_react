@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SelectEat from './selectEat/selecteat'
+import BigOrder from   './BicOrder/BicOrder'
 import App from './App'
 
 
@@ -10,6 +11,7 @@ function Routing() {
                 <Routes>
                     <Route path="/" element={<App />} />
                     <Route path="/Selecteat" element={<SelectEat />} />
+                    <Route path="/BigOrder" element={<BigOrder />} />
                 </Routes>
 
 

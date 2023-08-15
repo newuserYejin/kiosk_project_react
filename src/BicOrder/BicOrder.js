@@ -6,8 +6,7 @@ import circle from '../image/circle-question.svg'
 import search_icon from '../image/search.png'
 import SelectItem from './select_list_detail_code'
 import Menu_list from './menu_list'
-
-
+import { useNavigate, useLocation } from 'react-router-dom';
 
 function BicOrder() {
     const [size, setSize] = useState("big"); // 기본 값 설정

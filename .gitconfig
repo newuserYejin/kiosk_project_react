@@ -1,0 +1,12 @@
+[user]
+	name = Eunyoung Ji
+	email = jeunyeong323@gmail.com
+[core]
+	sutocrlf = true
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[init]
+	defaultBranch = main

@@ -12,7 +12,7 @@ function BicOrder() {
     const [size, setSize] = useState("big"); // 기본 값 설정
 
     const itemList = [
-        { name: '아메리카노', quantity: 3 },
+        { name: '아메리카노', quantity: 4 },
         { name: '아메리카노', quantity: 2 },
         { name: '아메리카노', quantity: 3 },
         { name: '아메리카노', quantity: 1 },

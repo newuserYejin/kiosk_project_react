@@ -8,12 +8,13 @@ import Paymethod from '../src/paymethod/paymethod'
 import OrderNum from  '../src/ordernum/ordernum'
 import Pay_Card from  './pay_card/pay_card'
 import Pay_Coupon from  './pay_coupon/pay_coupon'
+import Detail_menu from './detail_menu/detail_menu';
 
 
 function App() {
   return (
     <>
-      <SelectOrder/>
+      <Detail_menu/>
     </>
   );
 }

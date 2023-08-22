@@ -1,0 +1,38 @@
+.modal_size{
+    height:95%;
+}
+
+.modalBody{
+    overflow: hidden;
+    overflow-y: visible;
+}
+
+.box{
+    border: solid 2px black;
+}
+
+.top_box{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    border-bottom: solid 3px black;
+    padding-right: 2vw;
+}
+
+.search_icon{
+    width: 7%;
+}
+
+.keyword_box{
+    height: 50%;
+    overflow: hidden;
+}
+
+.simple_keyboard{
+    border: solid 2px black;
+}

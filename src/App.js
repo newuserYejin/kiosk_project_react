@@ -11,12 +11,13 @@ import Pay_Coupon from  './pay_coupon/pay_coupon'
 import Detail_menu from './detail_menu/detail_menu';
 import HelpMsg from  './help_msg/help_msg';
 import Msg_Box from './messageBox/messageBox';
+import SearchPage from './search/search';
 
 
 function App() {
   return (
     <>
-      <Msg_Box/>
+      <SearchPage/>
     </>
   );
 }

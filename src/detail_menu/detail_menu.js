@@ -55,7 +55,10 @@ function Detail_menu() {
                               <input className={`form-check-input me-1 ${detail_menu_css.formCheckInput}`} type="radio" name="listGroupRadio" value="" id="firstRadio" defaultChecked />
                               <label className={`form-check-label ${detail_menu_css.formCheckLabel}`} htmlFor="firstRadio">First radio</label>
                             </li>
-                            {/* ... */}
+                            <li className={`list-group-item ${detail_menu_css.listGroupItem}`}>
+                              <input className={`form-check-input me-1 ${detail_menu_css.formCheckInput}`} type="radio" name="listGroupRadio" value="" id="SecondRadio"/>
+                              <label className={`form-check-label ${detail_menu_css.formCheckLabel}`} htmlFor="SecondRadio">Second radio</label>
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -67,9 +70,12 @@ function Detail_menu() {
                           <ul className={`list-group ${detail_menu_css.listGroup}`}>
                             <li className={`list-group-item ${detail_menu_css.listGroupItem}`}>
                               <input className={`form-check-input me-1 ${detail_menu_css.formCheckInput}`} type="checkbox" value="" id="firstCheckbox" />
-                              <label className="form-check-label" htmlFor="firstCheckbox">First</label>
+                              <label className={`form-check-label ${detail_menu_css.formCheckLabel}`} htmlFor="firstCheckbox">First</label>
                             </li>
-                            {/* ... */}
+                            <li className={`list-group-item ${detail_menu_css.listGroupItem}`}>
+                              <input className={`form-check-input me-1 ${detail_menu_css.formCheckInput}`} type="checkbox" value="" id="SecondCheckbox" />
+                              <label className={`form-check-label ${detail_menu_css.formCheckLabel}`} htmlFor="SecondCheckbox">Second</label>
+                            </li>
                           </ul>
                         </div>
                       </div>

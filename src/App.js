@@ -9,12 +9,13 @@ import OrderNum from  '../src/ordernum/ordernum'
 import Pay_Card from  './pay_card/pay_card'
 import Pay_Coupon from  './pay_coupon/pay_coupon'
 import Detail_menu from './detail_menu/detail_menu';
+import HelpMsg from  './help_msg/help_msg';
 
 
 function App() {
   return (
     <>
-      <Detail_menu/>
+      <HelpMsg/>
     </>
   );
 }

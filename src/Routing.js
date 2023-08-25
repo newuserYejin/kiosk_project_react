@@ -12,6 +12,14 @@ function Routing() {
                     <Route path="/" element={<App />} />
                     <Route path="/Selecteat" element={<SelectEat />} />
                     <Route path="/BigOrder" element={<BigOrder />} />
+                    <Route path="/SelectOrder" element={<SelectOrder />} />
+                    <Route path="/SelectOrder_e" element={<SelectOrder_e />} />
+                    <Route path="/Selecteat_e" element={<SelectEat_e/>}/>
+                    <Route path="/PayCard_e" element={<PayCard_e />} />
+                    <Route path="/PayCoupon_e" element={<PayCoupon_e />} />
+                    <Route path="/Paymethod_e" element={<Paymethod_e/>}></Route>
+                    <Route path="/Checklist_e" element={<Checklist_e/>}/>
+                    <Route path="/Checklist" element={<Checklist/>}/>
                 </Routes>
 
 

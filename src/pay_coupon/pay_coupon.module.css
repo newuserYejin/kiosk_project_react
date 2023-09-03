@@ -70,7 +70,7 @@ html,body {
     height: 2rem;
     border: solid 3px black;
     border-radius: 50%;
-    background-color: pink;
+    background-color: white;
     margin-right: 5px;
 }
 
@@ -146,4 +146,14 @@ html,body {
     height: 8vh;
     margin-top: 4vh;
     margin-bottom: 8vh;
+}
+.back{
+
+    font-size: 3vw;
+    background-color: white;
+    height: 80%;
+    height: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+    margin-right: 5vh;
 }

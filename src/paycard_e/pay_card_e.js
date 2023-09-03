@@ -12,9 +12,9 @@ function App(){
     const order = searchParams.get('order');
     function openSelect() {
         if (order == 'slow') {
-            navigation('/BigOrder?order=slow');
+            navigation('/BigOrder_e?order=slow');
         } else if (order == 'basic') {
-            navigation('/BigOrder?order=basic');
+            navigation('/BasicOrder_e?order=basic');
         }
     }
 
@@ -43,9 +43,9 @@ function App(){
     }
     function gohome(){
         if (order == 'slow') {
-            navigation('/BigOrder?order=slow');
+            navigation('/BigOrder_e?order=slow');
         } else if (order == 'basic') {
-            navigation('/BigOrder?order=basic');
+            navigation('/BasicOrder_e?order=basic');
         }
     }
     return (
@@ -54,7 +54,7 @@ function App(){
                 <div className={css.navigation_all_box}>
                     <div className={css.box_line}>
                         <div onClick={openSelect} className={css.level_button}>
-                            <p className={css.circle_name}>Choose</p>
+                            <p className={css.circle_name}>Select menu</p>
                             <button className={css.circle}></button>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ function App(){
 
                     <div className={css.box_line}>
                         <div onClick={openCheck} className={css.level_button}>
-                            <p className={css.circle_name}>Check</p>
+                            <p className={css.circle_name}>order confirmation</p>
                             <button className={css.circle}></button>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function App(){
                     <div className={css.box_line}>
                         <div onClick={openPay} className={css.level_button}>
                             <p className={css.circle_name}>Pay</p>
-                            <button className={css.circle} style={{ backgroundColor: '#b928b98d' }}></button>
+                            <button className={css.circle} style={{ backgroundColor: '#87ceeb' }}></button>
                         </div>
                     </div>
                 </div>

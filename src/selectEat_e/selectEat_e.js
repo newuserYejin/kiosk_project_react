@@ -10,9 +10,9 @@ function App(){
 
     function checkOrderType(){
         if (order == 'slow') {
-            navigation('/BigOrder?order=slow');
+            navigation('/BigOrder_e?order=slow');
         } else if (order == 'basic') {
-            navigation('/BigOrder?order=basic');
+            navigation('/BasicOrder_e?order=basic');
         }
     }
 

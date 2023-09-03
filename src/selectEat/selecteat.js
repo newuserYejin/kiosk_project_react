@@ -16,7 +16,7 @@ function App() {
         if (order == 'slow') {
             navigation('/BigOrder?order=slow');
         } else if (order == 'basic') {
-            navigation('/BigOrder?order=basic');
+            navigation('/BasicOrder?order=basic');
         }
     }
 

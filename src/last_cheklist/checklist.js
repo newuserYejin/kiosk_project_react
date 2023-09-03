@@ -16,7 +16,7 @@ function App(){
         if (order == 'slow') {
             navigation('/BigOrder?order=slow');
         } else if (order == 'basic') {
-            navigation('/BigOrder?order=basic');
+            navigation('/BasicOrder?order=basic');
         }
     }
 
@@ -40,7 +40,7 @@ function App(){
         if (order == 'slow') {
             navigation('/BigOrder?order=slow');
         } else if (order == 'basic') {
-            navigation('/BigOrder?order=basic');
+            navigation('/BasicOrder?order=basic');
         }
     }
 
@@ -65,7 +65,7 @@ function App(){
                 <div className={css.navigation_all_box}>
                     <div className={css.box_line}>
                         <div onClick={openSelect} className={css.level_button}>
-                            <p className={css.circle_name}>선택</p>
+                            <p className={css.circle_name}>메뉴 선택</p>
                             <button className={css.circle}></button>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function App(){
 
                     <div className={css.box_line}>
                         <div onClick={openCheck} className={css.level_button}>
-                            <p className={css.circle_name}>확인</p>
+                            <p className={css.circle_name}>주문 확인</p>
                             <button className={css.circle}></button>
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function App(){
                     <div className={css.box_line}>
                         <div onClick={openPay} className={css.level_button}>
                             <p className={css.circle_name}>결제</p>
-                            <button className={css.circle} style={{ backgroundColor: '#b928b98d' }}></button>
+                            <button className={css.circle} style={{ backgroundColor: '#87ceeb' }}></button>
                         </div>
                     </div>
                 </div>
@@ -110,6 +110,7 @@ function App(){
                 <div className={css.take_out}>
                 <div className={css.take_out_title}>포장확인: </div>
                 <ul className={css.list_group}>
+                    
                     <li className={css.list_group_item}>
                         <input className={css.form_check_input} type="radio" name="listGroupRadio" value="" id="firstRadio" defaultChecked />
                         <label className={css.form_check_label} htmlFor="firstRadio">먹고가기</label>

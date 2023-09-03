@@ -21,6 +21,13 @@ function App() {
         navigation('/SelectEat?order=basic');
     }
 
+    function kor(){
+        navigation('/SelectOrder');
+    }
+    function usa(){
+        navigation('/SelectOrder_e');
+    }
+
     return (
         <div className={sl.all}>
             <div className={sl.help}>
@@ -41,8 +48,8 @@ function App() {
                     </div>
 
                     <div className={sl.language}>
-                        <img className={sl.kor} src={korImage} alt="한국어" />
-                        <img className={sl.usa} src={usaImage} alt="미국어" />
+                        <img className={sl.kor} src={korImage} alt="한국어" onClick={kor} />
+                        <img className={sl.usa} src={usaImage} alt="미국어" onClick={usa}/>
                     </div>
 
                 </div>

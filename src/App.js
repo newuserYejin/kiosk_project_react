@@ -23,7 +23,7 @@ import Checklist from './last_cheklist/checklist';
 function App() {
   return (
     <>
-      <Pay_Card_e/>
+      <SelectOrder/>
     </>
   );
 }
